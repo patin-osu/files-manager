@@ -1,11 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T06:21:01.353Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="-bxZL7Sv1oAw_kZ1gosw" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T06:33:25.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="L7PSNL6bOgs4GXW9l5Zt" version="21.6.5" type="github">
   <diagram name="Page-1" id="b-GvlYgbe-usW-_9CSE4">
-    <mxGraphModel dx="780" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2359" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="T11Usa7jfr0eZrBqCiGz-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="10" width="120" height="80" as="geometry" />
+          <mxGeometry x="-820" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-2" value="Waiting for exam result" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T11Usa7jfr0eZrBqCiGz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-760.5" y="100" as="sourcePoint" />
+            <mxPoint x="-760" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-5" value="&lt;div&gt;Look at the exam result&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="T11Usa7jfr0eZrBqCiGz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-760.5" y="220" as="sourcePoint" />
+            <mxPoint x="-760.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-8" value="&lt;div&gt;Failed the exam&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-760.5" y="330" as="sourcePoint" />
+            <mxPoint x="-760" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-10" value="&amp;nbsp;เรียนเสริม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="T11Usa7jfr0eZrBqCiGz-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-760.5" y="440" as="sourcePoint" />
+            <mxPoint x="-760.5" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-12" value="สอบซ่อม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T11Usa7jfr0eZrBqCiGz-10" target="T11Usa7jfr0eZrBqCiGz-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-770" y="560" as="sourcePoint" />
+            <mxPoint x="-730" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-14" value="&amp;nbsp;รอผลการซ่อม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-760.5" y="660" as="sourcePoint" />
+            <mxPoint x="-760" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-16" value="ดูผลการซ่อม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T11Usa7jfr0eZrBqCiGz-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T11Usa7jfr0eZrBqCiGz-14" target="T11Usa7jfr0eZrBqCiGz-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-690" y="820" as="sourcePoint" />
+            <mxPoint x="-640" y="770" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
