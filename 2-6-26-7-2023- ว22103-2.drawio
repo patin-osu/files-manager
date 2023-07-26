@@ -1,9 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T06:54:21.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" version="21.6.5" etag="jblKNSw29_9J06E7BHnC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T06:57:50.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="K5f0hkqi2tP85dzuFAtT" version="21.6.5" type="github">
   <diagram name="Page-1" id="wVBIVsFh_yA82yIXXX95">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QnYDVaz9E81MxCuKdatq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnYDVaz9E81MxCuKdatq-1" target="QnYDVaz9E81MxCuKdatq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QnYDVaz9E81MxCuKdatq-1" value="เริ่ม" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QnYDVaz9E81MxCuKdatq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnYDVaz9E81MxCuKdatq-2" target="QnYDVaz9E81MxCuKdatq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QnYDVaz9E81MxCuKdatq-2" value="เปิดคอม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnYDVaz9E81MxCuKdatq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QnYDVaz9E81MxCuKdatq-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnYDVaz9E81MxCuKdatq-4" value="เลือก&amp;nbsp; OS (Fedora 38 linux-kernel6.3)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnYDVaz9E81MxCuKdatq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnYDVaz9E81MxCuKdatq-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnYDVaz9E81MxCuKdatq-8" value="&amp;nbsp;ใส่รหัสผ่าน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnYDVaz9E81MxCuKdatq-11" value="&amp;nbsp;จบ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
